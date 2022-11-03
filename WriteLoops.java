@@ -22,7 +22,9 @@ public class WriteLoops {
             // calling
             w = w + 1;
             // each time through the loop
-
+        for (int i = 1; i < 11; i++){
+            i = w;
+        }
         // this will tell the test how many times the loop executed.
         return w;
     }
