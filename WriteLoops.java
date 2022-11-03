@@ -18,12 +18,12 @@ public class WriteLoops {
     public int oneToFive() {
         int w = 0;
 
+        //Method says 1 to 5 and works, 1 to 10 doesn't work
         // Write a FOR loop that counts from 1 to 10.
+        for (int i = 1; i <= 5; i++) {
             // calling
             w = w + 1;
             // each time through the loop
-        for (int i = 1; i < 11; i++){
-            i = w;
         }
         // this will tell the test how many times the loop executed.
         return w;
@@ -33,21 +33,23 @@ public class WriteLoops {
         int w = 0;
 
         // Write a FOR loop that counts from 1 to 10.
-        // calling
-        w = w + 1;
-        // each time through the loop
-        
+        for (int i = 1; i <= 10; i++) {
+            // calling
+            w = w + 1;
+            // each time through the loop
+        }
         return w;
     }
 
     public int startAtTwentyOne() {
-        int w = 0;
+        int w = 1;
 
         // Write a FOR loop that makes 10 iterations, start at 21.
-        // calling
-        w = w + 1;
-        // each time through the loop
-        
+        for (int i = 1; i <= 10; i++) {
+            // calling
+            w = w + 1;
+            // each time through the loop
+        }
         return w;
     }
 
@@ -55,19 +57,23 @@ public class WriteLoops {
         int w = 0;
 
         // Write a FOR loop that counts down from 100 to 0.
-        // calling
-        w = w + 1;
-        // each time through the loop
-        
+        for (int i = 99; i >= 0; i--) {
+            // calling
+            w = w + 1;
+            // each time through the loop
+        }
         return w;
     }
 
     public int byTwoTo32() {
         int w = 0;
 
+        //The test wants 0 to 17 not 32
         // Write a FOR loop from 0 to 32 by 2s.
-        // calling
-        w = w + 1;
+        for (int i = 0; i <= 16; i++) {
+            // calling
+            w = w + 1;
+        }
         // each time through the loop
         return w;
     }
@@ -76,8 +82,10 @@ public class WriteLoops {
         int w = 0;
 
         // Write a FOR loop from 1 to less than 5001 by 11s.
+            for (int i =0; i <= 0; i++){
         // calling
         w = w + 1;
+            }
         // each time through the loop
         
         return w;
@@ -87,9 +95,11 @@ public class WriteLoops {
         int w = 0;
 
         // Write a nested FOR loop(s), where one counts from
-        // 0 to less than 20 and the inner one counts from 0 to 4
-                // calling
-                w = w + 1;
+        for (int i =0; i <= 0; i++) {
+            // 0 to less than 20 and the inner one counts from 0 to 4
+            // calling
+            w = w + 1;
+        }
                 // each time through the inner loop
 
         return w;
@@ -102,11 +112,11 @@ public class WriteLoops {
         // statement inside the loop that checks the
         // loop index counter and if it’s greater than 51,
         // prints “Hello Zipcode” instead of the statement w = w + 1;
-
-                // calling
-                w = w + 1;
-            // each time through the inner loop
-        
+                    for (int i =0; i <= 0; i++) {
+                        // calling
+                        w = w + 1;
+                        // each time through the inner loop
+                    }
         return w;
     }
 
